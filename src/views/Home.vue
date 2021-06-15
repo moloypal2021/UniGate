@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Navbar Component Start -->
     <Navbar>
       <!-- Menus -->
       <div class="lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow">
@@ -101,17 +102,25 @@
         </div>
       </div>
     </Navbar>
+
+    <!-- Navbar Component End -->
+
+    <!-- Heros Component Start -->
+    <Hero />
+    <!-- Heros Component End -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
+import Hero from "@/components/Hero.vue";
 
 export default {
   name: "Home",
   components: {
     Navbar,
+    Hero,
   },
 };
 </script>

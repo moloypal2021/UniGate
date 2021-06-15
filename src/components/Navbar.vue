@@ -1,12 +1,13 @@
 <template>
-  <div class="bg-white shadow">
+  <div class="bg-white shadow py-1">
     <nav
       class="
+        container
         relative
         lg:flex
         lg:items-center
         w-full
-        max-w-7xl
+        xl:max-w-7xl
         mx-auto
         xl:px-6
         sm:px-8
@@ -107,8 +108,10 @@
           </svg>
         </button>
       </div>
-
-      <slot :class="{ 'hidden lg:block': !navbarOpen }"></slot>
+      <div :class="{ 'hidden lg:block': navbarOpen === false }">
+        <!-- Menus SLot -->
+        <slot></slot>
+      </div>
     </nav>
   </div>
 </template>
