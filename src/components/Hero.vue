@@ -28,12 +28,12 @@
     >
       <h1
         class="
-          lg:text-7xl
+          lg:text-6xl
           md:text-6xl
           sm:text-5xl
           text-3xl text-white
           font-bold
-          max-w-6xl
+          max-w-5xl
           mx-auto
           text-center
           xl:mb-16
@@ -48,7 +48,6 @@
       <div class="max-w-6xl mx-auto"></div>
       <h2
         class="
-          xl:text-3xl
           lg:text-2xl
           md:text-xl
           sm:text-lg
@@ -60,14 +59,13 @@
       <div class="flex flex-wrap items-center justify-center">
         <h3
           class="
-            xl:text-2xl
             lg:text-xl
             md:text-lg
             sm:text-base
             text-sm text-white text-opacity-80
             md:py-5
             py-2
-            xl:px-8
+            xl:px-6
             px-4
           "
         >
@@ -75,14 +73,13 @@
         </h3>
         <h3
           class="
-            xl:text-2xl
             lg:text-xl
             md:text-lg
             sm:text-base
             text-sm text-white text-opacity-80
             md:py-5
             py-2
-            xl:px-8
+            xl:px-6
             px-4
           "
         >
@@ -90,14 +87,13 @@
         </h3>
         <h3
           class="
-            xl:text-2xl
             lg:text-xl
             md:text-lg
             sm:text-base
             text-sm text-white text-opacity-80
             md:py-5
             py-2
-            xl:px-8
+            xl:px-6
             px-4
           "
         >
@@ -106,11 +102,11 @@
       </div>
       <div
         class="
-          xl:mt-16
-          lg:mt-14
-          md:mt-12
-          sm:mt-10
-          mt-8
+          xl:mt-12
+          lg:mt-10
+          md:mt-9
+          sm:mt-8
+          mt-7
           flex
           items-center
           justify-center
@@ -124,8 +120,6 @@
               xl:px-8
               sm:px-5
               px-4
-              lg:text-xl
-              md:text-lg
               sm:text-base
               text-sm
               leading-normal
@@ -144,8 +138,6 @@
               py-2
               sm:px-6
               px-3
-              lg:text-xl
-              md:text-lg
               sm:text-base
               text-sm
               leading-normal

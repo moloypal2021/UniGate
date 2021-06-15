@@ -34,7 +34,7 @@
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 sm:h-7 md:h-8 lg:h-9 xl:h-10"
+            class="h-5 sm:h-6 md:h-7 lg:h-8"
             viewBox="0 0 387.619 44.354"
           >
             <g data-name="Group 2">
