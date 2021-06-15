@@ -1,18 +1,117 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Navbar>
+      <!-- Menus -->
+      <div class="lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow">
+        <div class="lg:flex lg:items-stretch lg:justify-end ml-auto">
+          <a
+            href="#"
+            class="
+              flex-no-grow flex-no-shrink
+              relative
+              py-2
+              xl:px-4
+              px-2
+              xl:text-base
+              md:text-sm
+              leading-normal
+              text-dark-10
+              no-underline
+              flex
+              items-center
+            "
+            >How The Process Works?</a
+          >
+          <a
+            href="#"
+            class="
+              flex-no-grow flex-no-shrink
+              relative
+              py-2
+              xl:px-4
+              px-2
+              xl:text-base
+              md:text-sm
+              leading-normal
+              text-dark-10
+              no-underline
+              flex
+              items-center
+            "
+            >Courses</a
+          >
+          <a
+            href="#"
+            class="
+              flex-no-grow flex-no-shrink
+              relative
+              py-2
+              xl:px-4
+              px-2
+              xl:text-base
+              md:text-sm
+              leading-normal
+              text-dark-10
+              no-underline
+              flex
+              items-center
+            "
+            >FAQs
+          </a>
+          <div class="flex items-center lg:mx-3 my-3">
+            <a
+              href="#"
+              class="
+                flex-no-grow flex-no-shrink
+                relative
+                py-2
+                xl:px-8
+                px-5
+                xl:text-base
+                md:text-sm
+                leading-normal
+                text-dark-10
+                no-underline
+                border-2 border-dark-10
+                rounded
+              "
+              >Contact Us
+            </a>
+          </div>
+          <div class="flex items-center lg:mx-3 my-3">
+            <a
+              href="./contact.html"
+              class="
+                flex-no-grow flex-no-shrink
+                relative
+                py-2
+                px-6
+                xl:text-base
+                md:text-sm
+                leading-normal
+                text-white
+                no-underline
+                border-2 border-blue-10
+                bg-blue-10
+                rounded
+              "
+              >Application Form
+            </a>
+          </div>
+        </div>
+      </div>
+    </Navbar>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Navbar from "@/components/Navbar.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    Navbar,
+  },
+};
 </script>
