@@ -33,8 +33,30 @@
       </div>
       <div class="w-48 h-2 bg-blue-10 rounded-full mx-auto mb-16"></div>
       <div class="flex flex-wrap justify-center">
-        <div class="w-4/12 flex justify-center px-8 py-8">
-          <div class="w-full bg-white shadow-md rounded-3xl py-24 px-10">
+        <div
+          class="
+            lg:w-4/12
+            sm:w-6/12
+            w-full
+            flex
+            justify-center
+            sm:px-4
+            md:px-8
+            py-8
+          "
+        >
+          <div
+            class="
+              w-full
+              bg-white
+              shadow-md
+              rounded-3xl
+              py-16
+              sm:py-20
+              md:py-24
+              px-10
+            "
+          >
             <div class="flex justify-center mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,13 +88,35 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl text-center text-dark-20">
+            <h3 class="text-lg sm:text-xl md:text-2xl text-center text-dark-20">
               Immigration Law Experts & Visa Specialists
             </h3>
           </div>
         </div>
-        <div class="w-4/12 flex justify-center px-8 py-8">
-          <div class="w-full bg-white shadow-md rounded-3xl py-24 px-10">
+        <div
+          class="
+            lg:w-4/12
+            sm:w-6/12
+            w-full
+            flex
+            justify-center
+            sm:px-4
+            md:px-8
+            py-8
+          "
+        >
+          <div
+            class="
+              w-full
+              bg-white
+              shadow-md
+              rounded-3xl
+              py-16
+              sm:py-20
+              md:py-24
+              px-10
+            "
+          >
             <div class="flex justify-center mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -128,13 +172,35 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl text-center text-dark-20">
+            <h3 class="text-lg sm:text-xl md:text-2xl text-center text-dark-20">
               Process Management
             </h3>
           </div>
         </div>
-        <div class="w-4/12 flex justify-center px-8 py-8">
-          <div class="w-full bg-white shadow-md rounded-3xl py-24 px-10">
+        <div
+          class="
+            lg:w-4/12
+            sm:w-6/12
+            w-full
+            flex
+            justify-center
+            sm:px-4
+            md:px-8
+            py-8
+          "
+        >
+          <div
+            class="
+              w-full
+              bg-white
+              shadow-md
+              rounded-3xl
+              py-16
+              sm:py-20
+              md:py-24
+              px-10
+            "
+          >
             <div class="flex justify-center mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -164,13 +230,35 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl text-center text-dark-20">
+            <h3 class="text-lg sm:text-xl md:text-2xl text-center text-dark-20">
               Consultants You Can Trust
             </h3>
           </div>
         </div>
-        <div class="w-4/12 flex justify-center px-8 py-8">
-          <div class="w-full bg-white shadow-md rounded-3xl py-24 px-10">
+        <div
+          class="
+            lg:w-4/12
+            sm:w-6/12
+            w-full
+            flex
+            justify-center
+            sm:px-4
+            md:px-8
+            py-8
+          "
+        >
+          <div
+            class="
+              w-full
+              bg-white
+              shadow-md
+              rounded-3xl
+              py-16
+              sm:py-20
+              md:py-24
+              px-10
+            "
+          >
             <div class="flex justify-center mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -201,11 +289,35 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl text-center text-dark-20">Individual Care</h3>
+            <h3 class="text-lg sm:text-xl md:text-2xl text-center text-dark-20">
+              Individual Care
+            </h3>
           </div>
         </div>
-        <div class="w-4/12 flex justify-center px-8 py-8">
-          <div class="w-full bg-white shadow-md rounded-3xl py-24 px-10">
+        <div
+          class="
+            lg:w-4/12
+            sm:w-6/12
+            w-full
+            flex
+            justify-center
+            sm:px-4
+            md:px-8
+            py-8
+          "
+        >
+          <div
+            class="
+              w-full
+              bg-white
+              shadow-md
+              rounded-3xl
+              py-16
+              sm:py-20
+              md:py-24
+              px-10
+            "
+          >
             <div class="flex justify-center mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -235,13 +347,35 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl text-center text-dark-20">
+            <h3 class="text-lg sm:text-xl md:text-2xl text-center text-dark-20">
               Fixed Price & No Hidden Fees
             </h3>
           </div>
         </div>
-        <div class="w-4/12 flex justify-center px-8 py-8">
-          <div class="w-full bg-white shadow-md rounded-3xl py-24 px-10">
+        <div
+          class="
+            lg:w-4/12
+            sm:w-6/12
+            w-full
+            flex
+            justify-center
+            sm:px-4
+            md:px-8
+            py-8
+          "
+        >
+          <div
+            class="
+              w-full
+              bg-white
+              shadow-md
+              rounded-3xl
+              py-16
+              sm:py-20
+              md:py-24
+              px-10
+            "
+          >
             <div class="flex justify-center mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -315,13 +449,35 @@
                 </g>
               </svg>
             </div>
-            <h3 class="text-2xl text-center text-dark-20">
+            <h3 class="text-lg sm:text-xl md:text-2xl text-center text-dark-20">
               Fast, Cost Effective Solutions & Peace of Mind
             </h3>
           </div>
         </div>
-        <div class="w-4/12 flex justify-center px-8 py-8">
-          <div class="w-full bg-white shadow-md rounded-3xl py-24 px-10">
+        <div
+          class="
+            lg:w-4/12
+            sm:w-6/12
+            w-full
+            flex
+            justify-center
+            sm:px-4
+            md:px-8
+            py-8
+          "
+        >
+          <div
+            class="
+              w-full
+              bg-white
+              shadow-md
+              rounded-3xl
+              py-16
+              sm:py-20
+              md:py-24
+              px-10
+            "
+          >
             <div class="flex justify-center mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -351,13 +507,35 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl text-center text-dark-20">
+            <h3 class="text-lg sm:text-xl md:text-2xl text-center text-dark-20">
               We Speak Your Language
             </h3>
           </div>
         </div>
-        <div class="w-4/12 flex justify-center px-8 py-8">
-          <div class="w-full bg-white shadow-md rounded-3xl py-24 px-10">
+        <div
+          class="
+            lg:w-4/12
+            sm:w-6/12
+            w-full
+            flex
+            justify-center
+            sm:px-4
+            md:px-8
+            py-8
+          "
+        >
+          <div
+            class="
+              w-full
+              bg-white
+              shadow-md
+              rounded-3xl
+              py-16
+              sm:py-20
+              md:py-24
+              px-10
+            "
+          >
             <div class="flex justify-center mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -417,7 +595,7 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl text-center text-dark-20">
+            <h3 class="text-lg sm:text-xl md:text-2xl text-center text-dark-20">
               One Point of Communication
             </h3>
           </div>
