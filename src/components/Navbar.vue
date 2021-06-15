@@ -108,7 +108,7 @@
           </svg>
         </button>
       </div>
-      <div :class="{ 'hidden lg:block': navbarOpen === false }">
+      <div class="ml-auto" :class="{ 'hidden lg:block': navbarOpen === false }">
         <!-- Menus SLot -->
         <slot></slot>
       </div>
