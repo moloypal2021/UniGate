@@ -108,6 +108,10 @@
     <!-- Heros Component Start -->
     <Hero />
     <!-- Heros Component End -->
+
+    <!-- Feature Component End -->
+    <Feature />
+    <!-- Feature Component End -->
   </div>
 </template>
 
@@ -115,12 +119,14 @@
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
 import Hero from "@/components/Hero.vue";
+import Feature from "@/components/Feature.vue";
 
 export default {
   name: "Home",
   components: {
     Navbar,
     Hero,
+    Feature,
   },
 };
 </script>
