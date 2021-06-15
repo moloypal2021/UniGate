@@ -19,22 +19,19 @@
         xl:px-6
         sm:px-8
         px-4
-        xl:py-40
-        lg:py-36
-        md:py-32
-        sm:py-28
-        py-24
+        xl:py-28
+        lg:py-24
+        md:py-20
+        sm:py-16
+        py-14
       "
     >
       <h1
         class="
-          xl:text-[95px]
           lg:text-7xl
           md:text-6xl
           sm:text-5xl
-          text-3xl
-          xl:leading-[100px]
-          text-white
+          text-3xl text-white
           font-bold
           max-w-6xl
           mx-auto
@@ -109,11 +106,11 @@
       </div>
       <div
         class="
-          xl:mt-20
-          lg:mt-16
-          md:mt-14
-          sm:mt-12
-          mt-10
+          xl:mt-16
+          lg:mt-14
+          md:mt-12
+          sm:mt-10
+          mt-8
           flex
           items-center
           justify-center
@@ -127,7 +124,6 @@
               xl:px-8
               sm:px-5
               px-4
-              xl:text-2xl
               lg:text-xl
               md:text-lg
               sm:text-base
@@ -148,7 +144,6 @@
               py-2
               sm:px-6
               px-3
-              xl:text-2xl
               lg:text-xl
               md:text-lg
               sm:text-base

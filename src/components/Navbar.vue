@@ -14,7 +14,7 @@
         px-4
       "
     >
-      <div class="flex flex-no-shrink items-center h-24">
+      <div class="flex flex-no-shrink items-center h-20">
         <!-- Logo  -->
         <a
           href="./index.html"
