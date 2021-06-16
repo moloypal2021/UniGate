@@ -13,6 +13,9 @@ module.exports = {
           10: "#576DFF",
         },
       },
+      boxShadow: {
+        10: "0px 0px 99px 0px rgba(26,26,26,0.06)",
+      },
       fontFamily: {
         "sf-pro-display": ["SF Pro Display", "sans-serif"],
       },

@@ -19,7 +19,6 @@
     >
       <div
         class="
-          xl:text-[57px]
           lg:text-5xl
           md:text-4xl
           sm:text-3xl
@@ -31,7 +30,7 @@
       >
         Why Choose Us
       </div>
-      <div class="w-48 h-2 bg-blue-10 rounded-full mx-auto mb-16"></div>
+      <div class="w-36 h-2 bg-blue-10 rounded-full mx-auto mb-16"></div>
       <div class="flex flex-wrap justify-center">
         <div
           class="
@@ -49,11 +48,11 @@
             class="
               w-full
               bg-white
-              shadow-md
+              shadow-10
               rounded-3xl
-              py-16
-              sm:py-20
-              md:py-24
+              py-12
+              sm:py-16
+              md:py-20
               px-10
             "
           >
@@ -109,11 +108,11 @@
             class="
               w-full
               bg-white
-              shadow-md
+              shadow-10
               rounded-3xl
-              py-16
-              sm:py-20
-              md:py-24
+              py-12
+              sm:py-16
+              md:py-20
               px-10
             "
           >
@@ -193,11 +192,11 @@
             class="
               w-full
               bg-white
-              shadow-md
+              shadow-10
               rounded-3xl
-              py-16
-              sm:py-20
-              md:py-24
+              py-12
+              sm:py-16
+              md:py-20
               px-10
             "
           >
@@ -251,11 +250,11 @@
             class="
               w-full
               bg-white
-              shadow-md
+              shadow-10
               rounded-3xl
-              py-16
-              sm:py-20
-              md:py-24
+              py-12
+              sm:py-16
+              md:py-20
               px-10
             "
           >
@@ -310,11 +309,11 @@
             class="
               w-full
               bg-white
-              shadow-md
+              shadow-10
               rounded-3xl
-              py-16
-              sm:py-20
-              md:py-24
+              py-12
+              sm:py-16
+              md:py-20
               px-10
             "
           >
@@ -368,11 +367,11 @@
             class="
               w-full
               bg-white
-              shadow-md
+              shadow-10
               rounded-3xl
-              py-16
-              sm:py-20
-              md:py-24
+              py-12
+              sm:py-16
+              md:py-20
               px-10
             "
           >
@@ -470,11 +469,11 @@
             class="
               w-full
               bg-white
-              shadow-md
+              shadow-10
               rounded-3xl
-              py-16
-              sm:py-20
-              md:py-24
+              py-12
+              sm:py-16
+              md:py-20
               px-10
             "
           >
@@ -528,11 +527,11 @@
             class="
               w-full
               bg-white
-              shadow-md
+              shadow-10
               rounded-3xl
-              py-16
-              sm:py-20
-              md:py-24
+              py-12
+              sm:py-16
+              md:py-20
               px-10
             "
           >
