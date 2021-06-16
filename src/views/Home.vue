@@ -112,6 +112,14 @@
     <!-- Feature Component End -->
     <Feature />
     <!-- Feature Component End -->
+
+    <!-- Contact Component End -->
+    <Contact />
+    <!-- Contact Component End -->
+
+    <!-- Contact Component End -->
+    <Footer />
+    <!-- Contact Component End -->
   </div>
 </template>
 
@@ -120,6 +128,8 @@
 import Navbar from "@/components/Navbar.vue";
 import Hero from "@/components/Hero.vue";
 import Feature from "@/components/Feature.vue";
+import Contact from "@/components/Contact.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Home",
@@ -127,6 +137,8 @@ export default {
     Navbar,
     Hero,
     Feature,
+    Contact,
+    Footer,
   },
 };
 </script>

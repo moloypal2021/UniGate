@@ -5,6 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        light: {
+          10: "#F2F2F2",
+        },
         dark: {
           10: "#1A1A1A",
           20: "#484848",
@@ -14,7 +17,7 @@ module.exports = {
         },
       },
       boxShadow: {
-        10: "0px 0px 99px 0px rgba(26,26,26,0.06)",
+        10: "0px 0px 99px 0px rgba(26,26,26,0.04)",
       },
       fontFamily: {
         "sf-pro-display": ["SF Pro Display", "sans-serif"],
