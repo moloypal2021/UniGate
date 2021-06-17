@@ -17,7 +17,7 @@
       <div class="flex flex-no-shrink items-center h-20">
         <!-- Logo  -->
         <a
-          href="./index.html"
+          href="/"
           class="
             flex-no-grow flex-no-shrink
             relative
