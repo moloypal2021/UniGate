@@ -6,7 +6,7 @@
       <div class="lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow">
         <div class="lg:flex lg:items-stretch lg:justify-end ml-auto">
           <a
-            href="#"
+            href="/about"
             class="
               flex-no-grow flex-no-shrink
               relative
