@@ -3,7 +3,7 @@
     <Navbar />
 
     <!-- Information Section Start -->
-    <section class="relative h-screen">
+    <section class="fixed z-[-1] inset-0">
       <div class="md:block hidden">
         <img
           src="@/assets/images/hafcircle.png"
@@ -19,18 +19,15 @@
           xl:max-w-7xl
           mx-auto
           px-6
-          xl:py-24
-          lg:py-20
-          md:py-16
-          sm:py-14
-          py-12
+          md:py-40
+          py-36
           text-center
         "
       >
         <img
           src="@/assets/images/logo.svg"
           alt=""
-          class="lg:h-11 md:h-10 sm:h-9 h-8 mx-auto mb-6"
+          class="lg:h-11 md:h-10 sm:h-9 h-7 mx-auto mb-6"
         />
         <h2
           class="
