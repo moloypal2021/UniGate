@@ -3,7 +3,7 @@
     <Navbar />
 
     <!-- Information Section Start -->
-    <section class="relative">
+    <section class="relative h-screen">
       <div class="md:block hidden">
         <img
           src="@/assets/images/hafcircle.png"
@@ -30,14 +30,14 @@
         <img
           src="@/assets/images/logo.svg"
           alt=""
-          class="lg:h-12 md:h-11 sm:h-10 h-9 mx-auto mb-8"
+          class="lg:h-11 md:h-10 sm:h-9 h-8 mx-auto mb-6"
         />
         <h2
           class="
-            text-base
-            sm:text-lg
-            md:text-xl
-            lg:text-2xl
+            text-sm
+            sm:text-base
+            md:text-lg
+            lg:text-xl
             text-center text-dark-10
             mb-8
           "
@@ -46,10 +46,10 @@
         </h2>
         <h1
           class="
-            text-xl
-            sm:text-2xl
-            md:text-3xl
-            lg:text-4xl
+            text-lg
+            sm:text-xl
+            md:text-2xl
+            lg:text-3xl
             text-blue-10
             font-bold
             mb-4
@@ -63,18 +63,17 @@
             sm:text-lg
             md:text-xl
             lg:text-2xl
-            xl:text-[28px]
             text-blue-10
             max-w-xl
             mx-auto
-            mb-10
+            mb-6
           "
         >
           You will be contacted by one of our consultants within 1-2 working
           days
         </h1>
         <h1
-          class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-dark-10 mb-6"
+          class="text-sm sm:text-base md:text-lg lg:text-xl text-dark-10 mb-6"
         >
           Link To Edit Your Application:
         </h1>
@@ -82,8 +81,7 @@
           class="
             max-w-xs
             sm:max-w-sm
-            md:max-w-lg
-            lg:max-w-xl
+            md:max-w-[490px]
             mx-auto
             bg-light-20
             rounded
@@ -95,10 +93,9 @@
           <div class="flex items-center">
             <h1
               class="
-                text-sm
-                sm:text-base
-                md:text-lg
-                lg:text-xl
+                text-xs
+                sm:text-sm
+                md:text-base
                 font-bold
                 text-dark-10
                 overflow-hidden
@@ -108,7 +105,7 @@
             </h1>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-5 sm:w-6 md:w-7 lg:w-8 mx-6"
+              class="w-4 sm:w-5 md:w-6 lg:w-7 mx-6"
               viewBox="0 0 47.5 55"
             >
               <path
@@ -121,15 +118,7 @@
             </svg>
           </div>
         </div>
-        <h2
-          class="
-            text-sm
-            sm:text-base
-            md:text-lg
-            lg:text-xl
-            text-center text-dark-10
-          "
-        >
+        <h2 class="text-sm md:text-base lg:text-lg text-center text-dark-10">
           The link has also been sent to your provided email
         </h2>
       </div>
