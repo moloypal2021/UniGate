@@ -4,11 +4,11 @@
 
     <!-- Information Section Start -->
     <section class="relative">
-      <div class="">
+      <div class="md:block hidden">
         <img
           src="@/assets/images/hafcircle.png"
           alt=""
-          class="w-64 absolute bottom-0 left-0 z-[-1]"
+          class="w-32 sm:w-40 md:w-44 lg:w-64 absolute bottom-0 left-0 z-[-1]"
         />
       </div>
       <div
@@ -18,6 +18,7 @@
           w-full
           xl:max-w-7xl
           mx-auto
+          px-6
           xl:py-24
           lg:py-20
           md:py-16
@@ -26,76 +27,88 @@
           text-center
         "
       >
-        <img src="@/assets/images/logo.svg" alt="" class="h-16 mx-auto mb-12" />
+        <img
+          src="@/assets/images/logo.svg"
+          alt=""
+          class="lg:h-12 md:h-11 sm:h-10 h-9 mx-auto mb-8"
+        />
         <h2
           class="
-            text-lg
-            sm:text-xl
-            md:text-2xl
-            lg:text-3xl
+            text-base
+            sm:text-lg
+            md:text-xl
+            lg:text-2xl
             text-center text-dark-10
-            mb-16
+            mb-8
           "
         >
           Application Reference - 218xa2ff2
         </h2>
         <h1
           class="
-            text-2xl
-            sm:text-3xl
-            md:text-4xl
-            lg:text-[43px]
+            text-xl
+            sm:text-2xl
+            md:text-3xl
+            lg:text-4xl
             text-blue-10
             font-bold
-            mb-10
+            mb-4
           "
         >
           Your application has been successfully submitted
         </h1>
         <h1
           class="
-            text-2xl
-            sm:text-3xl
-            md:text-4xl
-            lg:text-[40px]
+            text-base
+            sm:text-lg
+            md:text-xl
+            lg:text-2xl
+            xl:text-[28px]
             text-blue-10
-            max-w-4xl
+            max-w-xl
             mx-auto
-            mb-16
+            mb-10
           "
         >
           You will be contacted by one of our consultants within 1-2 working
           days
         </h1>
         <h1
-          class="
-            text-2xl
-            sm:text-3xl
-            md:text-4xl
-            lg:text-[40px]
-            text-dark-10
-            mb-10
-          "
+          class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-dark-10 mb-6"
         >
           Link To Edit Your Application:
         </h1>
-        <div class="max-w-5xl mx-auto bg-light-20 pl-6 py-4 mb-8">
+        <div
+          class="
+            max-w-xs
+            sm:max-w-sm
+            md:max-w-lg
+            lg:max-w-xl
+            mx-auto
+            bg-light-20
+            rounded
+            pl-6
+            py-3
+            mb-8
+          "
+        >
           <div class="flex items-center">
             <h1
               class="
-                text-xl
-                sm:text-2xl
-                md:text-3xl
-                lg:text-4xl
+                text-sm
+                sm:text-base
+                md:text-lg
+                lg:text-xl
                 font-bold
                 text-dark-10
+                overflow-hidden
               "
             >
               https://www.unigateconsultants.com/edit/218xa2ff2
             </h1>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-8 sm:w-9 md:w-10 lg:w-12 mx-6"
+              class="w-5 sm:w-6 md:w-7 lg:w-8 mx-6"
               viewBox="0 0 47.5 55"
             >
               <path
@@ -110,10 +123,10 @@
         </div>
         <h2
           class="
-            text-lg
-            sm:text-xl
-            md:text-2xl
-            lg:text-3xl
+            text-sm
+            sm:text-base
+            md:text-lg
+            lg:text-xl
             text-center text-dark-10
           "
         >
