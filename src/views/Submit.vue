@@ -3,7 +3,7 @@
     <Navbar />
 
     <!-- Information Section Start -->
-    <section class="fixed z-[-1] inset-0">
+    <section class="md:fixed md:z-[-1] md:inset-0">
       <div class="md:block hidden">
         <img
           src="@/assets/images/hafcircle.png"
@@ -20,7 +20,8 @@
           mx-auto
           px-6
           md:py-40
-          py-36
+          sm:py-20
+          py-16
           text-center
         "
       >
