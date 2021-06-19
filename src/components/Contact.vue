@@ -19,10 +19,10 @@
     >
       <div
         class="
-          lg:text-5xl
-          md:text-4xl
-          sm:text-3xl
-          text-2xl text-dark-20
+          lg:text-4xl
+          md:text-3xl
+          sm:text-2xl
+          text-xl text-dark-20
           font-bold
           text-center
           mb-3
@@ -30,7 +30,7 @@
       >
         Contact Us
       </div>
-      <div class="w-36 h-2 bg-blue-10 rounded-full mx-auto mb-16"></div>
+      <div class="w-32 h-2 bg-blue-10 rounded-full mx-auto mb-16"></div>
       <!-- Contact Information -->
       <div
         class="
@@ -45,14 +45,14 @@
         "
       >
         <div>
-          <div class="flex items-center md:mb-14 sm:mb-12 mb-10">
+          <div class="flex items-center md:mb-8 sm:mb-7 mb-6">
             <div
               class="
-                w-12
-                h-12
+                w-10
+                h-10
                 min-w-[48px]
-                md:w-[74px]
-                md:h-[74px]
+                md:w-16
+                md:h-16
                 rounded-full
                 flex
                 items-center
@@ -63,7 +63,7 @@
               <svg
                 data-name="Group 37"
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 md:w-7"
+                class="w-4 md:w-5"
                 viewBox="0 0 27.002 38.574"
               >
                 <g data-name="Group 34">
@@ -77,20 +77,20 @@
             </div>
             <div class="ml-4 md:ml-7">
               <h5
-                class="text-base sm:text-lg md:text-xl font-medium text-dark-20"
+                class="text-sm sm:text-base md:text-lg font-medium text-dark-20"
               >
                 Aldgate Tower 2 Lemon Street, London ,E1 8FA
               </h5>
             </div>
           </div>
-          <div class="flex items-center md:mb-14 sm:mb-12 mb-10">
+          <div class="flex items-center md:mb-8 sm:mb-7 mb-6">
             <div
               class="
-                w-12
-                h-12
+                w-10
+                h-10
                 min-w-[48px]
-                md:w-[74px]
-                md:h-[74px]
+                md:w-16
+                md:h-16
                 rounded-full
                 flex
                 items-center
@@ -100,7 +100,7 @@
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 md:w-7"
+                class="w-4 md:w-5"
                 viewBox="0 0 27.718 22.174"
               >
                 <path
@@ -112,20 +112,20 @@
             </div>
             <div class="ml-4 md:ml-7">
               <h5
-                class="text-base sm:text-lg md:text-xl font-medium text-dark-20"
+                class="text-sm sm:text-base md:text-lg font-medium text-dark-20"
               >
                 unigateconsultants@gmail.com
               </h5>
             </div>
           </div>
-          <div class="flex items-center md:mb-14 sm:mb-12 mb-10">
+          <div class="flex items-center md:mb-8 sm:mb-7 mb-6">
             <div
               class="
-                w-12
-                h-12
+                w-10
+                h-10
                 min-w-[48px]
-                md:w-[74px]
-                md:h-[74px]
+                md:w-16
+                md:h-16
                 rounded-full
                 flex
                 items-center
@@ -135,7 +135,7 @@
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 md:w-7"
+                class="w-4 md:w-5"
                 viewBox="0 0 27.019 27.019"
               >
                 <path
@@ -147,20 +147,20 @@
             </div>
             <div class="ml-4 md:ml-7">
               <h5
-                class="text-base sm:text-lg md:text-xl font-medium text-dark-20"
+                class="text-sm sm:text-base md:text-lg font-medium text-dark-20"
               >
                 +44 2034886466
               </h5>
             </div>
           </div>
-          <div class="flex items-center md:mb-14 sm:mb-12 mb-10">
+          <div class="flex items-center md:mb-8 sm:mb-7 mb-6">
             <div
               class="
-                w-12
-                h-12
+                w-10
+                h-10
                 min-w-[48px]
-                md:w-[74px]
-                md:h-[74px]
+                md:w-16
+                md:h-16
                 rounded-full
                 flex
                 items-center
@@ -170,7 +170,7 @@
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-5 md:w-7"
+                class="w-4 md:w-5"
                 viewBox="0 0 31.567 31.567"
               >
                 <path
@@ -182,7 +182,7 @@
             </div>
             <div class="ml-4 md:ml-7">
               <h5
-                class="text-base sm:text-lg md:text-xl font-medium text-dark-20"
+                class="text-sm sm:text-base md:text-lg font-medium text-dark-20"
               >
                 +44 2034886466
               </h5>
@@ -199,21 +199,22 @@
                 h-[300px]
                 sm:h-[340px]
                 md:h-[400px]
-                lg:h-[490px]
+                lg:h-[380px]
                 object-cover object-center
                 rounded-3xl
+                mb-2
               "
             />
             <div class="text-center">
               <a
                 href="#"
                 class="
-                  text-lg
-                  sm:text-xl
-                  md:text-2xl
+                  text-base
+                  sm:text-lg
+                  md:text-xl
                   text-blue-10
                   border-b border-blue-10
-                  mt-3
+                  mt-4
                 "
                 >View On Google Maps</a
               >
@@ -224,10 +225,10 @@
 
       <!-- Contact Form  -->
       <div class="max-w-5xl mx-auto">
-        <form class="grid lg:grid-cols-2 lg:gap-x-24 gap-y-14">
+        <form class="grid lg:grid-cols-2 lg:gap-x-16 gap-y-8">
           <div class="">
             <label
-              class="block text-dark-10 font-medium text-base sm:text-lg mb-3"
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
               for="name"
             >
               First Name
@@ -236,8 +237,8 @@
               class="
                 py-3
                 px-6
-                text-base
-                sm:text-lg
+                text-sm
+                sm:text-base
                 w-full
                 bg-light-10
                 text-dark-10
@@ -252,7 +253,7 @@
           </div>
           <div class="">
             <label
-              class="block text-dark-10 font-medium text-base sm:text-lg mb-3"
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
               for="name"
             >
               Last Name
@@ -261,8 +262,8 @@
               class="
                 py-3
                 px-6
-                text-base
-                sm:text-lg
+                text-sm
+                sm:text-base
                 w-full
                 bg-light-10
                 text-dark-10
@@ -277,7 +278,7 @@
           </div>
           <div class="">
             <label
-              class="block text-dark-10 font-medium text-base sm:text-lg mb-3"
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
               for="name"
             >
               Email
@@ -286,8 +287,8 @@
               class="
                 py-3
                 px-6
-                text-base
-                sm:text-lg
+                text-sm
+                sm:text-base
                 w-full
                 bg-light-10
                 text-dark-10
@@ -302,7 +303,7 @@
           </div>
           <div class="">
             <label
-              class="block text-dark-10 font-medium text-base sm:text-lg mb-3"
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
               for="name"
             >
               Mobile Number
@@ -312,8 +313,8 @@
                 class="
                   py-3
                   px-6
-                  text-base
-                  sm:text-lg
+                  text-sm
+                  sm:text-base
                   w-20
                   bg-light-10
                   text-dark-10
@@ -329,8 +330,8 @@
                 class="
                   py-3
                   px-6
-                  text-base
-                  sm:text-lg
+                  text-sm
+                  sm:text-base
                   w-full
                   bg-light-10
                   text-dark-10
@@ -346,7 +347,7 @@
           </div>
           <div class="relative">
             <label
-              class="block text-dark-10 font-medium text-base sm:text-lg mb-3"
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
               for="name"
             >
               Course Type
@@ -355,8 +356,8 @@
               class="
                 py-3
                 px-6
-                text-base
-                sm:text-lg
+                text-sm
+                sm:text-base
                 w-full
                 bg-light-10
                 text-dark-10
@@ -379,7 +380,7 @@
                 absolute
                 inset-y-0
                 right-4
-                mt-10
+                mt-8
                 pl-3
                 flex
                 items-center
@@ -388,8 +389,7 @@
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="30.995"
-                height="17.997"
+                class="w-5"
                 viewBox="0 0 30.995 17.997"
               >
                 <path
@@ -406,7 +406,7 @@
           </div>
           <div class="">
             <label
-              class="block text-dark-10 font-medium text-base sm:text-lg mb-3"
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
               for="deg"
             >
               Degree/Course Name (Optional)
@@ -415,8 +415,8 @@
               class="
                 py-3
                 px-6
-                text-base
-                sm:text-lg
+                text-sm
+                sm:text-base
                 w-full
                 bg-light-10
                 text-dark-10
@@ -432,7 +432,7 @@
           <div class="lg:col-span-2">
             <div class="">
               <label
-                class="block text-dark-10 font-medium text-base sm:text-lg mb-3"
+                class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
                 for="deg"
               >
                 Message
@@ -441,8 +441,8 @@
                 class="
                   py-3
                   px-6
-                  text-base
-                  sm:text-lg
+                  text-sm
+                  sm:text-base
                   w-full
                   bg-light-10
                   text-dark-10
@@ -466,10 +466,11 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
                   bg-blue-10
                   text-white
                   px-6
-                  py-3
-                  text-lg
-                  sm:text-xl
-                  md:text-2xl
+                  py-2
+                  text-sm
+                  sm:text-base
+                  md:text-lg
+                  rounded
                 "
               >
                 Send Message

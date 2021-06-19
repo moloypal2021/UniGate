@@ -19,10 +19,10 @@
     >
       <div
         class="
-          lg:text-5xl
-          md:text-4xl
-          sm:text-3xl
-          text-2xl text-dark-20
+          lg:text-4xl
+          md:text-3xl
+          sm:text-2xl
+          text-xl text-dark-20
           font-bold
           text-center
           mb-3
@@ -30,7 +30,7 @@
       >
         Why Choose Us
       </div>
-      <div class="w-36 h-2 bg-blue-10 rounded-full mx-auto mb-16"></div>
+      <div class="w-32 h-2 bg-blue-10 rounded-full mx-auto mb-16"></div>
       <div class="flex flex-wrap justify-center">
         <div
           class="

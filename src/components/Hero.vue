@@ -24,6 +24,8 @@
         md:py-20
         sm:py-16
         py-14
+        mt-16
+        md:mt-20
       "
     >
       <h1

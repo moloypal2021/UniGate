@@ -17,10 +17,10 @@
         py-12
       "
     >
-      <div class="grid md:grid-cols-2 gap-x-16 gap-y-8 mb-16">
+      <div class="grid md:grid-cols-2 gap-x-8 xl:gap-x-16 gap-y-8 mb-10">
         <div class="">
           <a
-            href="./index.html"
+            href="/"
             class="
               flex-no-grow flex-no-shrink
               relative
@@ -33,12 +33,12 @@
               no-underline
               flex
               items-center
-              mb-16
+              mb-10
             "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 sm:h-6 md:h-7 lg:h-8 xl:h-11"
+              class="h-5 sm:h-6 md:h-7 lg:h-9"
               viewBox="0 0 387.619 44.354"
             >
               <g data-name="Group 2">
@@ -77,66 +77,66 @@
           </a>
 
           <!-- Links -->
-          <div class="flex space-x-20 mb-16">
+          <h5
+            class="
+              text-sm
+              sm:text-base
+              md:text-lg
+              lg:text-xl
+              text-dark-10
+              font-bold
+              mb-4
+            "
+          >
+            Important Links
+          </h5>
+          <div class="flex space-x-20 mb-8">
             <div>
               <ul>
                 <li
                   class="
-                    text-base
-                    sm:text-lg
-                    md:text-xl
-                    lg:text-2xl
+                    text-sm
+                    sm:text-base
+                    md:text-lg
+                    lg:text-xl
                     text-dark-10
-                    font-bold
-                    mb-4
-                  "
-                >
-                  Important Links
-                </li>
-                <li
-                  class="
-                    text-base
-                    sm:text-lg
-                    md:text-xl
-                    lg:text-2xl
-                    text-dark-10
-                    mb-4
+                    mb-3
                   "
                 >
                   <a href="#">Home</a>
                 </li>
                 <li
                   class="
-                    text-base
-                    sm:text-lg
-                    md:text-xl
-                    lg:text-2xl
+                    text-sm
+                    sm:text-base
+                    md:text-lg
+                    lg:text-xl
                     text-dark-10
-                    mb-4
+                    mb-3
                   "
                 >
                   <a href="#">Application Form</a>
                 </li>
                 <li
                   class="
-                    text-base
-                    sm:text-lg
-                    md:text-xl
-                    lg:text-2xl
+                    text-sm
+                    sm:text-base
+                    md:text-lg
+                    lg:text-xl
                     text-dark-10
-                    mb-4
+                    mb-3
                   "
                 >
                   <a href="#">Why Choose Us?</a>
                 </li>
                 <li
                   class="
-                    text-base
-                    sm:text-lg
-                    md:text-xl
-                    lg:text-2xl
+                    text-sm
+                    sm:text-base
+                    md:text-lg
+                    lg:text-xl
                     text-dark-10
-                    mb-4
+                    mb-3
                   "
                 >
                   <a href="#">Contact Form</a>
@@ -147,36 +147,36 @@
               <ul>
                 <li
                   class="
-                    text-base
-                    sm:text-lg
-                    md:text-xl
-                    lg:text-2xl
+                    text-sm
+                    sm:text-base
+                    md:text-lg
+                    lg:text-xl
                     text-dark-10
-                    mb-4
+                    mb-3
                   "
                 >
                   <a href="#">Location</a>
                 </li>
                 <li
                   class="
-                    text-base
-                    sm:text-lg
-                    md:text-xl
-                    lg:text-2xl
+                    text-sm
+                    sm:text-base
+                    md:text-lg
+                    lg:text-xl
                     text-dark-10
-                    mb-4
+                    mb-3
                   "
                 >
                   <a href="#">Call Us</a>
                 </li>
                 <li
                   class="
-                    text-base
-                    sm:text-lg
-                    md:text-xl
-                    lg:text-2xl
+                    text-sm
+                    sm:text-base
+                    md:text-lg
+                    lg:text-xl
                     text-dark-10
-                    mb-4
+                    mb-3
                   "
                 >
                   <a href="#">Email Us</a>
@@ -204,7 +204,7 @@
                 <a href="#"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="lg:w-14 md:w-12 sm:w-10 w-8"
+                    class="lg:w-10 md:w-9 sm:w-8 w-6"
                     viewBox="0 0 58.125 57.773"
                   >
                     <path
@@ -218,7 +218,7 @@
                 <a href="#"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="lg:w-14 md:w-12 sm:w-10 w-8"
+                    class="lg:w-10 md:w-9 sm:w-8 w-6"
                     viewBox="0 0 60 48.73"
                   >
                     <path
@@ -232,7 +232,7 @@
                 <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="lg:w-14 md:w-12 sm:w-10 w-8"
+                    class="lg:w-10 md:w-9 sm:w-8 w-6"
                     viewBox="0 0 52.529 52.518"
                   >
                     <defs>
@@ -260,7 +260,7 @@
                 <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="lg:w-14 md:w-12 sm:w-10 w-8"
+                    class="lg:w-10 md:w-9 sm:w-8 w-6"
                     viewBox="0 0 52.5 52.5"
                   >
                     <path
@@ -275,7 +275,7 @@
                   <svg
                     data-name="Icon ionic-logo-googleplus"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="lg:w-14 md:w-12 sm:w-10 w-8"
+                    class="lg:w-10 md:w-9 sm:w-8 w-6"
                     viewBox="0 0 60 38.203"
                   >
                     <path
@@ -294,16 +294,16 @@
           </div>
         </div>
         <div class="">
-          <div class="lg:max-w-xl lg:ml-auto">
+          <div class="xl:max-w-xl xl:ml-auto">
             <img
               src="@/assets/images/map.png"
               alt=""
               class="
                 w-full
-                h-[300px]
-                sm:h-[340px]
-                md:h-[400px]
-                lg:h-[490px]
+                h-[280px]
+                sm:h-[320px]
+                md:h-[380px]
+                lg:h-[420px]
                 object-cover object-center
                 rounded-3xl
               "
@@ -312,15 +312,15 @@
         </div>
       </div>
       <div class="text-center">
-        <h4 class="lg:text-2xl md:text-xl sm:text-lg text-base text-dark-10">
+        <h4 class="lg:text-xl md:text-lg sm:text-base text-sm text-dark-10">
           Copyright @ 2021
         </h4>
         <h4
           class="
-            lg:text-2xl
-            md:text-xl
-            sm:text-lg
-            text-base text-dark-10
+            lg:text-xl
+            md:text-lg
+            sm:text-base
+            text-sm text-dark-10
             font-bold
           "
         >

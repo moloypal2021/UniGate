@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white shadow py-1">
+  <div class="bg-white shadow fixed top-0 inset-x-0 z-50">
     <nav
       class="
         container
@@ -14,7 +14,7 @@
         px-4
       "
     >
-      <div class="flex flex-no-shrink items-center h-20">
+      <div class="flex flex-no-shrink items-center h-16 md:h-20">
         <!-- Logo  -->
         <a
           href="/"
