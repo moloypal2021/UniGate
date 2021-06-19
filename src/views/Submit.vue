@@ -14,7 +14,6 @@
       <div
         class="
           container
-          xl:
           w-full
           xl:max-w-7xl
           mx-auto
