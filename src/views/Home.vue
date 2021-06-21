@@ -117,9 +117,9 @@
     <Contact />
     <!-- Contact Component End -->
 
-    <!-- Contact Component End -->
+    <!-- Footer Component End -->
     <Footer />
-    <!-- Contact Component End -->
+    <!-- Footer Component End -->
   </div>
 </template>
 

@@ -103,6 +103,27 @@
   <SectionD />
   <SectionE />
   <SectionF />
+  <SectionF2 />
+
+  <!-- Submit Section Start -->
+  <div
+    class="container w-full xl:max-w-7xl mx-auto px-6 md:py-14 sm:py-12 py-10"
+  >
+    <div class="flex flex-wrap items-center justify-between">
+      <h5 class="text-base sm:text-lg lg:text-xl text-blue-10 mr-8">
+        A link to edit this application later will be sent to your email after
+        submission.
+      </h5>
+      <button class="px-6 py-2 text-white bg-blue-10 rounded">
+        Submit Application
+      </button>
+    </div>
+  </div>
+  <!-- Submit Section End -->
+
+  <!-- Footer Component End -->
+  <Footer />
+  <!-- Footer Component End -->
   <!-- Main Section End  -->
 </template>
 <script>
@@ -114,6 +135,8 @@ import SectionC from "@/components/ApplicationForm/SectionC.vue";
 import SectionD from "@/components/ApplicationForm/SectionD.vue";
 import SectionE from "@/components/ApplicationForm/SectionE.vue";
 import SectionF from "@/components/ApplicationForm/SectionF.vue";
+import SectionF2 from "@/components/ApplicationForm/SectionF2.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "ApplicationForm",
@@ -125,6 +148,8 @@ export default {
     SectionD,
     SectionE,
     SectionF,
+    SectionF2,
+    Footer,
   },
 };
 </script>
