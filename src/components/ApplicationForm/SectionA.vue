@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="container w-full xl:max-w-7xl mx-auto px-6 py-16">
     <h2 class="text-lg sm:text-xl lg:text-2xl font-bold text-dark-10 mb-6">
       Section A - Your Course
     </h2>
-    <div class="grid lg:grid-cols-2 gap-x-40 xl:gap-x-96 gap-y-8">
-      <div>
+    <div class="grid lg:grid-cols-2 gap-x-12 gap-y-8">
+      <div class="max-w-md">
         <!-- Course Title -->
         <div class="mb-4">
           <label
@@ -60,7 +60,7 @@
         <!-- Month & Year of Entry -->
         <div class="mb-4">
           <label
-            for="name"
+            for="MonthYearOfEntry"
             class="mb-2 text-sm sm:text-base md:text-lg text-dark-10"
           >
             Month & Year of Entry
@@ -126,6 +126,65 @@
               />
             </div>
           </div>
+        </div>
+      </div>
+      <div class="max-w-md">
+        <label
+          for="name"
+          class="mb-2 text-sm sm:text-base md:text-lg text-dark-10"
+          >Mode of Study</label
+        >
+        <div class="mb-3">
+          <input
+            type="radio"
+            id="fulltime"
+            name="modelofstudy"
+            value="fulltime"
+          />
+          <label
+            class="ml-0.5 sm:ml-2 text-dark-10 text-sm sm:text-base md:text-lg"
+            for="fulltime"
+            >Full-Time ( 01 Year )</label
+          >
+        </div>
+        <div class="mb-3">
+          <input
+            type="radio"
+            id="fulltimeplaceyear"
+            name="modelofstudy"
+            value="fulltimeplaceyear"
+          />
+          <label
+            class="ml-0.5 sm:ml-2 text-dark-10 text-sm sm:text-base md:text-lg"
+            for="fulltimeplaceyear"
+            >Full-Time With Placement Year ( 02 Years )</label
+          >
+        </div>
+        <div class="mb-3">
+          <input
+            type="radio"
+            id="parttime"
+            name="modelofstudy"
+            value="parttime"
+          />
+          <label
+            class="ml-0.5 sm:ml-2 text-dark-10 text-sm sm:text-base md:text-lg"
+            for="parttime"
+            >Part Time</label
+          >
+        </div>
+        <div class="mb-3">
+          <input
+            type="radio"
+            id="modelofstudy"
+            name="modelofstudy"
+            value="modelofstudy"
+          />
+          <label
+            class="ml-0.5 sm:ml-2 text-dark-10 text-sm sm:text-base md:text-lg"
+            for="modelofstudy"
+            >Online/Distance Learning</label
+          >
         </div>
       </div>
     </div>

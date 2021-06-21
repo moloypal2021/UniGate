@@ -81,7 +81,7 @@
           </div>
           <div class="flex items-center lg:mx-3 my-3">
             <a
-              href="./contact.html"
+              href="./application-form"
               class="
                 flex-no-grow flex-no-shrink
                 relative

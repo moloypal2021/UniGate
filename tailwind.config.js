@@ -8,6 +8,7 @@ module.exports = {
         light: {
           10: "#F2F2F2",
           20: "#F6F6F6",
+          30: "#FBFBFB",
         },
         dark: {
           10: "#1A1A1A",
