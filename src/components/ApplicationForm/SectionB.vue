@@ -65,8 +65,8 @@
             >
               Your Title
             </label>
-            <div class="flex space-x-6 sm:space-x-10 items-center">
-              <div>
+            <div class="flex flex-wrap items-center">
+              <div class="mr-4">
                 <input type="radio" id="mr" name="yourtitle" value="mr" />
                 <label
                   class="
@@ -80,7 +80,7 @@
                   >Mr</label
                 >
               </div>
-              <div>
+              <div class="mr-4">
                 <input type="radio" id="Mrs" name="yourtitle" value="Mrs" />
                 <label
                   class="
@@ -94,7 +94,7 @@
                   >Mrs</label
                 >
               </div>
-              <div>
+              <div class="mr-4">
                 <input type="radio" id="Miss" name="yourtitle" value="Miss" />
                 <label
                   class="
@@ -108,7 +108,7 @@
                   >Miss</label
                 >
               </div>
-              <div>
+              <div class="mr-4">
                 <input type="radio" id="Dr" name="yourtitle" value="Dr" />
                 <label
                   class="
@@ -122,7 +122,7 @@
                   >Dr</label
                 >
               </div>
-              <div>
+              <div class="mr-4">
                 <input
                   type="radio"
                   id="Professor"
@@ -144,7 +144,7 @@
             </div>
           </div>
 
-          <!--  First Name ( As Per Your Passport ) -->
+          <!--   Date Of Birth -->
           <div class="mb-4">
             <label
               for="name"
@@ -220,88 +220,452 @@
               Invalid username field !
             </span>
           </div>
+
+          <!--  Nationality -->
+          <div class="relative mb-4">
+            <label
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
+              for="name"
+            >
+              Nationality
+            </label>
+            <select
+              class="
+                py-3
+                px-6
+                text-sm
+                sm:text-base
+                w-full
+                bg-light-10
+                text-dark-10
+                border-0
+                focus:outline-none
+                rounded-lg
+                appearance-none
+              "
+              name="Nationality"
+              placeholder="John"
+              type="text"
+            >
+              <option value="">Select</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+            </select>
+            <div
+              class="
+                absolute
+                inset-y-0
+                right-4
+                mt-8
+                pl-3
+                flex
+                items-center
+                pointer-events-none
+              "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5"
+                viewBox="0 0 30.995 17.997"
+              >
+                <path
+                  data-name="Icon feather-chevron-down"
+                  d="M3.536 3.536l11.962 11.962L27.46 3.536"
+                  fill="none"
+                  stroke="#576dff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="5"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!--  Postal Code -->
+          <div class="mb-4">
+            <label
+              for="postalCode"
+              class="mb-2 text-sm sm:text-base md:text-lg text-dark-10"
+            >
+              Postal Code
+            </label>
+
+            <div class="">
+              <input
+                id="postalCode"
+                name="postalCode"
+                type="text"
+                placeholder="E6 5NE"
+                class="
+                  text-sm
+                  sm:text-base
+                  relative
+                  w-full
+                  border-2
+                  rounded
+                  text-dark-10
+                  bg-light-10
+                  placeholder-gray-400
+                  focus:border-dark-10
+                  focus:outline-none
+                  py-2
+                  px-4
+                  border-light-10
+                "
+              />
+            </div>
+
+            <span
+              class="
+                flex
+                items-center
+                font-medium
+                tracking-wide
+                text-red-500 text-xs
+                sm:text-sm
+                md:text-base
+                mt-1
+                ml-1
+              "
+            >
+              Invalid username field !
+            </span>
+          </div>
+
+          <!--  Email Address -->
+          <div class="mb-4">
+            <label
+              for="email"
+              class="mb-2 text-sm sm:text-base md:text-lg text-dark-10"
+            >
+              Email Address
+            </label>
+
+            <div class="">
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="johnsmith@gmail.com"
+                class="
+                  text-sm
+                  sm:text-base
+                  relative
+                  w-full
+                  border-2
+                  rounded
+                  text-dark-10
+                  bg-light-10
+                  placeholder-gray-400
+                  focus:border-dark-10
+                  focus:outline-none
+                  py-2
+                  px-4
+                  border-light-10
+                "
+              />
+            </div>
+
+            <span
+              class="
+                flex
+                items-center
+                font-medium
+                tracking-wide
+                text-red-500 text-xs
+                sm:text-sm
+                md:text-base
+                mt-1
+                ml-1
+              "
+            >
+              Invalid username field !
+            </span>
+          </div>
         </div>
+
         <div class="max-w-md">
-          <label
-            for="name"
-            class="mb-2 text-sm sm:text-base md:text-lg text-dark-10"
-            >Mode of Study</label
-          >
-          <div class="mb-3">
-            <input
-              type="radio"
-              id="fulltime"
-              name="modelofstudy"
-              value="fulltime"
-            />
+          <!--  Last Name ( As per your Passport ) -->
+          <div class="mb-4">
             <label
-              class="
-                ml-0.5
-                sm:ml-2
-                text-dark-10 text-sm
-                sm:text-base
-                md:text-lg
-              "
-              for="fulltime"
-              >Full-Time ( 01 Year )</label
+              for="lastName"
+              class="mb-2 text-sm sm:text-base md:text-lg text-dark-10"
             >
+              Last Name ( As per your Passport )
+            </label>
+
+            <div class="">
+              <input
+                id="lastName"
+                name="lastName"
+                type="text"
+                placeholder="Smith"
+                class="
+                  text-sm
+                  sm:text-base
+                  relative
+                  w-full
+                  border-2
+                  rounded
+                  text-dark-10
+                  bg-light-10
+                  placeholder-gray-400
+                  focus:border-dark-10
+                  focus:outline-none
+                  py-2
+                  px-4
+                  border-light-10
+                "
+              />
+            </div>
+
+            <span
+              class="
+                flex
+                items-center
+                font-medium
+                tracking-wide
+                text-red-500 text-xs
+                sm:text-sm
+                md:text-base
+                mt-1
+                ml-1
+              "
+            >
+              Invalid username field !
+            </span>
           </div>
-          <div class="mb-3">
-            <input
-              type="radio"
-              id="fulltimeplaceyear"
-              name="modelofstudy"
-              value="fulltimeplaceyear"
-            />
+
+          <!-- Gender -->
+          <div class="mb-4">
             <label
-              class="
-                ml-0.5
-                sm:ml-2
-                text-dark-10 text-sm
-                sm:text-base
-                md:text-lg
-              "
-              for="fulltimeplaceyear"
-              >Full-Time With Placement Year ( 02 Years )</label
+              for="gender"
+              class="mb-2 text-sm sm:text-base md:text-lg text-dark-10"
             >
+              Gender
+            </label>
+            <div class="flex flex-wrap items-center">
+              <div class="mr-4">
+                <input type="radio" id="Male" name="gender" value="Male" />
+                <label
+                  class="
+                    ml-0.5
+                    sm:ml-2
+                    text-dark-10 text-sm
+                    sm:text-base
+                    md:text-lg
+                  "
+                  for="Male"
+                  >Male</label
+                >
+              </div>
+              <div class="mr-4">
+                <input type="radio" id="Female" name="gender" value="Female" />
+                <label
+                  class="
+                    ml-0.5
+                    sm:ml-2
+                    text-dark-10 text-sm
+                    sm:text-base
+                    md:text-lg
+                  "
+                  for="Female"
+                  >Female</label
+                >
+              </div>
+              <div class="mr-4">
+                <input type="radio" id="Other" name="gender" value="Other" />
+                <label
+                  class="
+                    ml-0.5
+                    sm:ml-2
+                    text-dark-10 text-sm
+                    sm:text-base
+                    md:text-lg
+                  "
+                  for="Other"
+                  >Other</label
+                >
+              </div>
+              <div class="mr-4">
+                <input
+                  type="radio"
+                  id="Prefer Not To Say"
+                  name="gender"
+                  value="Prefer Not To Say"
+                />
+                <label
+                  class="
+                    ml-0.5
+                    sm:ml-2
+                    text-dark-10 text-sm
+                    sm:text-base
+                    md:text-lg
+                  "
+                  for="Prefer Not To Say"
+                  >Prefer Not To Say</label
+                >
+              </div>
+            </div>
           </div>
-          <div class="mb-3">
-            <input
-              type="radio"
-              id="parttime"
-              name="modelofstudy"
-              value="parttime"
-            />
+
+          <!--  Country of Birth -->
+          <div class="relative mb-4">
             <label
-              class="
-                ml-0.5
-                sm:ml-2
-                text-dark-10 text-sm
-                sm:text-base
-                md:text-lg
-              "
-              for="parttime"
-              >Part Time</label
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
+              for="countryofbirth"
             >
+              Country of Birth
+            </label>
+            <select
+              class="
+                py-3
+                px-6
+                text-sm
+                sm:text-base
+                w-full
+                bg-light-10
+                text-dark-10
+                border-0
+                focus:outline-none
+                rounded-lg
+                appearance-none
+              "
+              name="countryofbirth"
+              placeholder="select"
+              type="text"
+            >
+              <option value="">Select</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+            </select>
+            <div
+              class="
+                absolute
+                inset-y-0
+                right-4
+                mt-8
+                pl-3
+                flex
+                items-center
+                pointer-events-none
+              "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5"
+                viewBox="0 0 30.995 17.997"
+              >
+                <path
+                  data-name="Icon feather-chevron-down"
+                  d="M3.536 3.536l11.962 11.962L27.46 3.536"
+                  fill="none"
+                  stroke="#576dff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="5"
+                />
+              </svg>
+            </div>
           </div>
-          <div class="mb-3">
-            <input
-              type="radio"
-              id="modelofstudy"
-              name="modelofstudy"
-              value="modelofstudy"
-            />
+
+          <!--  Permanent Address -->
+          <div class="mb-4">
             <label
-              class="
-                ml-0.5
-                sm:ml-2
-                text-dark-10 text-sm
-                sm:text-base
-                md:text-lg
-              "
-              for="modelofstudy"
-              >Online/Distance Learning</label
+              for="permanentaddress"
+              class="mb-2 text-sm sm:text-base md:text-lg text-dark-10"
             >
+              Permanent Address
+            </label>
+
+            <div class="">
+              <input
+                id="permanentaddress"
+                name="permanentaddress"
+                type="text"
+                placeholder="House/Flat No, ABC Street, City"
+                class="
+                  text-sm
+                  sm:text-base
+                  relative
+                  w-full
+                  border-2
+                  rounded
+                  text-dark-10
+                  bg-light-10
+                  placeholder-gray-400
+                  focus:border-dark-10
+                  focus:outline-none
+                  py-2
+                  px-4
+                  border-light-10
+                "
+              />
+            </div>
+
+            <span
+              class="
+                flex
+                items-center
+                font-medium
+                tracking-wide
+                text-red-500 text-xs
+                sm:text-sm
+                md:text-base
+                mt-1
+                ml-1
+              "
+            >
+              Invalid username field !
+            </span>
+          </div>
+
+          <!--  Mobile Number -->
+          <div class="">
+            <label
+              class="block text-dark-10 font-medium text-sm sm:text-base mb-2"
+              for="name"
+            >
+              Mobile Number
+            </label>
+            <div class="flex space-x-3">
+              <input
+                class="
+                  py-3
+                  px-6
+                  text-sm
+                  sm:text-base
+                  w-20
+                  bg-light-10
+                  text-dark-10
+                  border-0
+                  focus:outline-none
+                  rounded-lg
+                "
+                name="phn"
+                placeholder="+44"
+                type="text"
+              />
+              <input
+                class="
+                  py-3
+                  px-6
+                  text-sm
+                  sm:text-base
+                  w-full
+                  bg-light-10
+                  text-dark-10
+                  border-0
+                  focus:outline-none
+                  rounded-lg
+                "
+                name="number"
+                placeholder="XXXXXXXXXX"
+                type="text"
+              />
+            </div>
           </div>
         </div>
       </div>

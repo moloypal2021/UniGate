@@ -99,6 +99,7 @@
   </section>
   <SectionA />
   <SectionB />
+  <SectionC />
   <!-- Main Section End  -->
 </template>
 <script>
@@ -106,6 +107,7 @@
 import Navbar from "@/components/Navbar.vue";
 import SectionA from "@/components/ApplicationForm/SectionA.vue";
 import SectionB from "@/components/ApplicationForm/SectionB.vue";
+import SectionC from "@/components/ApplicationForm/SectionC.vue";
 
 export default {
   name: "ApplicationForm",
@@ -113,6 +115,7 @@ export default {
     Navbar,
     SectionA,
     SectionB,
+    SectionC,
   },
 };
 </script>
