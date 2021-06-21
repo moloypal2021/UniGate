@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-full xl:max-w-7xl mx-auto px-6 py-16">
+  <div class="container w-full xl:max-w-7xl mx-auto px-6 pt-10 pb-6">
     <h2 class="text-lg sm:text-xl lg:text-2xl font-bold text-dark-10 mb-6">
       Section C - Visa Details
     </h2>

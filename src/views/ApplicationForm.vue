@@ -100,6 +100,8 @@
   <SectionA />
   <SectionB />
   <SectionC />
+  <SectionD />
+  <SectionE />
   <!-- Main Section End  -->
 </template>
 <script>
@@ -108,6 +110,8 @@ import Navbar from "@/components/Navbar.vue";
 import SectionA from "@/components/ApplicationForm/SectionA.vue";
 import SectionB from "@/components/ApplicationForm/SectionB.vue";
 import SectionC from "@/components/ApplicationForm/SectionC.vue";
+import SectionD from "@/components/ApplicationForm/SectionD.vue";
+import SectionE from "@/components/ApplicationForm/SectionE.vue";
 
 export default {
   name: "ApplicationForm",
@@ -116,6 +120,8 @@ export default {
     SectionA,
     SectionB,
     SectionC,
+    SectionD,
+    SectionE,
   },
 };
 </script>
