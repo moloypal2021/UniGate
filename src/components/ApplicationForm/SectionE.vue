@@ -9,34 +9,34 @@
         high school, A level, etc), starting with the most recent qualification
         first.
       </p>
-      <div class="overflow-x-auto mb-6">
-        <div class="flex">
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+      <div class="overflow-x-auto mb-6 -mx-3">
+        <div class="flex flex-wrap lg:flex-nowrap">
+          <div class="w-full lg:w-[22rem] p-3">
             <h5 class="text-base sm:text-lg md:text-xl text-dark-10">
               School Attended
             </h5>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-1/2 lg:w-52 p-3">
             <h5 class="text-base sm:text-lg md:text-xl text-dark-10">
               Start Date
             </h5>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-1/2 lg:w-52 p-3">
             <h5 class="text-base sm:text-lg md:text-xl text-dark-10">
               Finish Date
             </h5>
           </div>
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+          <div class="w-8/12 lg:w-[22rem] p-3">
             <h5 class="text-base sm:text-lg md:text-xl text-dark-10">
               Qualification
             </h5>
           </div>
-          <div class="w-32 min-w-[8rem] lg:min-w-[auto] p-3">
+          <div class="w-4/12 lg:w-32 p-3">
             <h5 class="text-base sm:text-lg md:text-xl text-dark-10">Grade</h5>
           </div>
         </div>
-        <div class="flex">
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+        <div class="flex flex-wrap lg:flex-nowrap mb-8 lg:mb-0">
+          <div class="w-full lg:w-[22rem] px-3 py-1">
             <div class="">
               <input
                 id="nameofscool"
@@ -62,7 +62,7 @@
               />
             </div>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-1/2 lg:w-52 px-3 py-1">
             <div class="flex space-x-3">
               <div class="w-1/2">
                 <input
@@ -114,7 +114,7 @@
               </div>
             </div>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-1/2 lg:w-52 px-3 py-1">
             <div class="flex space-x-3">
               <div class="w-1/2">
                 <input
@@ -166,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-8/12 lg:w-[22rem] px-3 py-1">
             <div class="">
               <input
                 id="examinationTaken"
@@ -192,7 +192,7 @@
               />
             </div>
           </div>
-          <div class="w-32 min-w-[8rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-4/12 lg:w-32 px-3 py-1">
             <div class="">
               <input
                 id="Grade"
@@ -219,8 +219,8 @@
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+        <div class="flex flex-wrap lg:flex-nowrap mb-8 lg:mb-0">
+          <div class="w-full lg:w-[22rem] px-3 py-1">
             <div class="">
               <input
                 id="nameofscool"
@@ -246,7 +246,7 @@
               />
             </div>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-1/2 lg:w-52 px-3 py-1">
             <div class="flex space-x-3">
               <div class="w-1/2">
                 <input
@@ -298,7 +298,7 @@
               </div>
             </div>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-1/2 lg:w-52 px-3 py-1">
             <div class="flex space-x-3">
               <div class="w-1/2">
                 <input
@@ -350,7 +350,7 @@
               </div>
             </div>
           </div>
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-8/12 lg:w-[22rem] px-3 py-1">
             <div class="">
               <input
                 id="examinationTaken"
@@ -376,7 +376,7 @@
               />
             </div>
           </div>
-          <div class="w-32 min-w-[8rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-4/12 lg:w-32 px-3 py-1">
             <div class="">
               <input
                 id="Grade"
@@ -403,8 +403,8 @@
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+        <div class="flex flex-wrap lg:flex-nowrap mb-8 lg:mb-0">
+          <div class="w-full lg:w-[22rem] px-3 py-1">
             <div class="">
               <input
                 id="nameofscool"
@@ -430,7 +430,7 @@
               />
             </div>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-1/2 lg:w-52 px-3 py-1">
             <div class="flex space-x-3">
               <div class="w-1/2">
                 <input
@@ -482,7 +482,7 @@
               </div>
             </div>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-1/2 lg:w-52 px-3 py-1">
             <div class="flex space-x-3">
               <div class="w-1/2">
                 <input
@@ -534,7 +534,7 @@
               </div>
             </div>
           </div>
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-8/12 lg:w-[22rem] px-3 py-1">
             <div class="">
               <input
                 id="examinationTaken"
@@ -560,7 +560,7 @@
               />
             </div>
           </div>
-          <div class="w-32 min-w-[8rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-4/12 lg:w-32 px-3 py-1">
             <div class="">
               <input
                 id="Grade"
@@ -587,8 +587,8 @@
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+        <div class="flex flex-wrap lg:flex-nowrap mb-8 lg:mb-0">
+          <div class="w-full lg:w-[22rem] px-3 py-1">
             <div class="">
               <input
                 id="nameofscool"
@@ -614,7 +614,7 @@
               />
             </div>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-1/2 lg:w-52 px-3 py-1">
             <div class="flex space-x-3">
               <div class="w-1/2">
                 <input
@@ -666,7 +666,7 @@
               </div>
             </div>
           </div>
-          <div class="w-52 min-w-[13rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-1/2 lg:w-52 px-3 py-1">
             <div class="flex space-x-3">
               <div class="w-1/2">
                 <input
@@ -718,7 +718,7 @@
               </div>
             </div>
           </div>
-          <div class="w-[22rem] min-w-[22rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-8/12 lg:w-[22rem] px-3 py-1">
             <div class="">
               <input
                 id="examinationTaken"
@@ -744,7 +744,7 @@
               />
             </div>
           </div>
-          <div class="w-32 min-w-[8rem] lg:min-w-[auto] p-3">
+          <div class="w-full sm:w-4/12 lg:w-32 px-3 py-1">
             <div class="">
               <input
                 id="Grade"
